@@ -1,3 +1,28 @@
+require 'pry'
+
+def speak_to_grandma(talk)
+  if talk ==  "I LOVE YOU GRANDMA!"
+    "I LOVE YOU TOO PUMPKIN!"
+  elsif talk != talk.upcase
+    "HUH?! SPEAK UP, SONNY!"  
+  else talk.upcase
+    "NO, NOT SINCE 1938!"
+  end
+end
+
+
+# def speak_to_grandma(talk)
+#   if talk.upcase ==  "I LOVE YOU GRANDMA!"
+#     "I LOVE YOU TOO PUMPKIN!"
+#   elsif talk.downcase
+#     "HUH?! SPEAK UP, SONNY!"
+#   else talk.upcase
+#     "NO, NOT SINCE 1938!"
+#   end
+# end
+
+
+
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
